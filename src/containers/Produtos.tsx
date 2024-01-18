@@ -5,7 +5,6 @@ import { useGetProdutosQuery } from '../services/api'
 import * as S from './styles'
 
 type Props = {
-  produtos: ProdutoType[]
   favoritos: ProdutoType[]
   favoritar: (produto: ProdutoType) => void
 }

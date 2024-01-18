@@ -30,7 +30,7 @@ function App() {
       <GlobalStyle />
       <div className="container">
         <Header favoritos={favoritos} />
-        <Produtos favoritos={favoritos} favoritar={favoritar} produtos={[]} />
+        <Produtos favoritos={favoritos} favoritar={favoritar} />
       </div>
     </Provider>
   )
