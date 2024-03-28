@@ -13,6 +13,7 @@ export const Capa = styled.div`
 
   img {
     display: block;
+    border-radius: 10px;
     width: 100%;
     margin-bottom: 8px;
   }

@@ -1,9 +1,11 @@
 # EBAC Sports
 
-Projeto desenvolvido no curso de Full Stack Python da EBAC - Escola Britânica de Artes Criativas e Tecnologia.
+<img src="public/sports.png">
 
-Projeto simples desenvolvido em ReactJS com TypeScript e Redux para gerenciar o estado do aplicativo. Aplicação consome
-conteúdo fornecido por um banco de dados com dados fictícios.
+Projeto simples desenvolvido em **ReactJS** com **TypeScript** e **Redux** para gerenciar o estado do aplicativo.
+Aplicação consome conteúdo fornecido por um banco de dados com dados fictícios.
+
+Projeto desenvolvido no curso de Full Stack Python da EBAC - Escola Britânica de Artes Criativas e Tecnologia.
 
 ## 🚀 Começando
 

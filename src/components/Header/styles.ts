@@ -7,14 +7,13 @@ export const Header = styled.header`
     ${cores.corPrincipal},
     ${cores.corSecundaria}
   );
-  margin: 80px 0;
-  padding: 16px 24px;
+  padding: 26px 40px;
+  margin-bottom: 40px;
   display: flex;
-  border-radius: 6px;
   align-items: center;
 
   h1 {
-    font-size: 18px;
+    font-size: 26px;
     flex: 1;
     font-style: italic;
     color: ${cores.corFundo};

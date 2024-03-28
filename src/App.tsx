@@ -28,8 +28,8 @@ function App() {
   return (
     <Provider store={store}>
       <GlobalStyle />
+      <Header favoritos={favoritos} />
       <div className="container">
-        <Header favoritos={favoritos} />
         <Produtos favoritos={favoritos} favoritar={favoritar} />
       </div>
     </Provider>
