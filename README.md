@@ -1,6 +1,8 @@
 # EBAC Sports
 
-<img src="public/sports.png">
+## Apresentação do projeto
+
+
 
 Projeto simples desenvolvido em **ReactJS** com **TypeScript** e **Redux** para gerenciar o estado do aplicativo.
 Aplicação consome conteúdo fornecido por um banco de dados com dados fictícios.

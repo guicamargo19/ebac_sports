@@ -5,6 +5,7 @@ import Produtos from './containers/Produtos'
 import { GlobalStyle } from './styles'
 import { Provider } from 'react-redux'
 import { store } from './store'
+import Footer from './components/Footer'
 
 export type Produto = {
   id: number
@@ -32,6 +33,7 @@ function App() {
       <div className="container">
         <Produtos favoritos={favoritos} favoritar={favoritar} />
       </div>
+      <Footer />
     </Provider>
   )
 }

@@ -13,9 +13,9 @@ export const Capa = styled.div`
 
   img {
     display: block;
-    border-radius: 10px;
     width: 100%;
     margin-bottom: 8px;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.3);
   }
 `
 
@@ -23,44 +23,11 @@ export const Prices = styled.div`
   margin: 16px 0;
   color: #fff;
 
-  small {
-    font-size: 16px;
-    text-decoration: line-through;
-    margin-right: 8px;
-    opacity: 0.7;
-  }
-
   strong {
-    font-size: 18px;
+    font-size: 16px;
   }
 `
 
-export const Tag = styled.span`
-  background-color: ${cores.corPrincipal};
-  position: absolute;
-  top: 8px;
-  left: 8px;
-  padding: 8px;
-  font-size: 12px;
-  font-weight: 700;
-  color: #fff;
-`
-export const Plataformas = styled.ul`
-  display: flex;
-  flex-wrap: wrap;
-  margin: 8px 0 0;
-
-  li {
-    background-color: ${cores.corPrincipal};
-    padding: 8px;
-    font-size: 10px;
-    white-space: nowrap;
-    margin-right: 8px;
-    margin-bottom: 8px;
-    color: #fff;
-    font-weight: bold;
-  }
-`
 export const BtnComprar = styled.button`
   display: block;
   width: 100%;
@@ -76,8 +43,8 @@ export const BtnComprar = styled.button`
   color: #eee;
   border: none;
   cursor: pointer;
-  border-radius: 4px;
   margin-bottom: 8px;
+  transition: all ease-in-out 0.2s;
 
   &:hover {
     background-image: linear-gradient(
@@ -85,5 +52,6 @@ export const BtnComprar = styled.button`
       ${cores.corPrincipal},
       ${cores.corSecundaria}
     );
+    transition: all ease-in-out 0.2s;
   }
 `

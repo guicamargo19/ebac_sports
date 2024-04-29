@@ -20,7 +20,9 @@ const Header = ({ favoritos }: Props) => {
 
   return (
     <S.Header>
-      <h1>EBAC Sports</h1>
+      <h1>
+        <a href="./index.html">EBAC Sports</a>
+      </h1>
       <div>
         <span>{favoritos.length} favoritos</span>
         <img src={cesta} />

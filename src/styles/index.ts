@@ -2,9 +2,9 @@ import { createGlobalStyle } from 'styled-components'
 
 export const cores = {
   corTexto: '#121714',
-  corFundo: 'lightgray',
-  corPrincipal: '#0c2461',
-  corSecundaria: '#4a69bd'
+  corFundo: '#e7e7e7',
+  corPrincipal: '#152926',
+  corSecundaria: '#155956'
 }
 
 export const GlobalStyle = createGlobalStyle`
@@ -13,13 +13,13 @@ export const GlobalStyle = createGlobalStyle`
     padding: 0;
     list-style: none;
     box-sizing: border-box;
-    font-family: Roboto, sans-serif;
+    font-family: "Poppins", sans-serif;
     color: ${cores.corTexto}
   }
 
   body {
-    background-color: ${cores.corFundo};
-    padding-bottom: 80px;
+    background: linear-gradient(to right,#f5f5f5cc,#f5f5f5cc),url(https://servidor-estatico-tan.vercel.app/common-bg.svg);
+    background-position: center;
   }
 
   .container {

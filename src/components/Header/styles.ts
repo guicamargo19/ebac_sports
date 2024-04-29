@@ -13,10 +13,19 @@ export const Header = styled.header`
   align-items: center;
 
   h1 {
-    font-size: 26px;
+    font-size: 32px;
     flex: 1;
-    font-style: italic;
-    color: ${cores.corFundo};
+
+    a {
+      color: ${cores.corFundo};
+      text-decoration: none;
+      transition: all ease-in-out 0.2s;
+
+      &:hover {
+        opacity: 50%;
+        transition: all ease-in-out 0.2s;
+      }
+    }
   }
 
   div {
@@ -37,8 +46,16 @@ export const Header = styled.header`
   @media (max-width: 768px) {
     flex-direction: column;
 
+    h1 {
+      font-size: 28px;
+    }
+
     div {
-      margin-top: 16px;
+      margin-top: 20px;
+
+      span {
+        font-size: 12px;
+      }
     }
   }
 `
