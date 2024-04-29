@@ -2,7 +2,7 @@
 
 ## Apresentação do projeto
 
-
+https://github.com/guicamargo19/ebac_sports/assets/133445061/30bb9c5f-3e44-4c74-a4ae-0b380b1434da
 
 Projeto simples desenvolvido em **ReactJS** com **TypeScript** e **Redux** para gerenciar o estado do aplicativo.
 Aplicação consome conteúdo fornecido por um banco de dados com dados fictícios.
